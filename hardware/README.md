@@ -34,6 +34,14 @@ STEP/
     `-- UMI-Gripper/
 ```
 
+## Calibration Board
+
+`calibration/charuco_5x7_30mm_A4.pdf` is the ChArUco board that
+`handumi calibrate spatial` expects (`opencv_charuco_5x7_30mm_v1`: 5 × 7
+squares, `DICT_5X5_100`, 30 mm squares, 15 mm markers). Print it on A4 at 100%
+(actual size, no fit-to-page), check that both scale bars measure 100 mm, and
+mount it flat on a rigid backing.
+
 ## Modular Gripper Tip
 
 HandUMI is modular: the body, camera mount, servo, and tracking mount stay the
